@@ -33,4 +33,4 @@ Sudoku Solver was developed using Python and Visual Studio Code, making it an ex
 
 3. Modify the solver to meet your specific needs. Add new features, enhance the solving algorithm, or adapt the code for unique requirements. This project serves as a testament to the flexibility and modularity of Python code.
 
-Enjoy using and customizing the Sudoku Solver and let it serve as an illustration of my Python programming skills and my dedication to creating well-structured, functional solutions. Happy coding!
+Enjoy using Sudoku Solver, and feel free to modify it as you see fit. Have fun!
