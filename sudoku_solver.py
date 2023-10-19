@@ -60,22 +60,23 @@ class SudokuSolver:
                     return False
         return True
 
-# Create a SudokuSolver instance
-solver = SudokuSolver()
+if __name__ == "__main__":
+    # Create a SudokuSolver instance
+    solver = SudokuSolver()
 
-# Generates a new unsolved Sudoku puzzle
-solver.generate_sudoku()
+    # Generates a new unsolved Sudoku puzzle
+    solver.generate_sudoku()
 
-print("Unsolved Sudoku:")
-# Show Unsolved Sudoku puzzle
-solver.print_sudoku()
+    print("Unsolved Sudoku:")
+    # Show Unsolved Sudoku puzzle
+    solver.print_sudoku()
 
-# Prompt the user to press any key to continue
-input("\nPress any key to solve the Sudoku...")
+    # Prompt the user to press any key to continue
+    input("\nPress any key to solve the Sudoku...")
 
-# Solved the puzzle
-solver.solve()
+    # Solved the puzzle
+    solver.solve()
 
-print("\nSolved Sudoku:")
-# Show Solved Sudoku puzzle
-solver.print_sudoku()
+    print("\nSolved Sudoku:")
+    # Show Solved Sudoku puzzle
+    solver.print_sudoku()
