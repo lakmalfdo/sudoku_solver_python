@@ -60,7 +60,7 @@ class SudokuSolver:
                     return False
         return True
 
-if __name__ == "__main__":
+def main():
     # Create a SudokuSolver instance
     solver = SudokuSolver()
 
@@ -80,3 +80,6 @@ if __name__ == "__main__":
     print("\nSolved Sudoku:")
     # Show Solved Sudoku puzzle
     solver.print_sudoku()
+
+if __name__ == '__main__':
+    main()
